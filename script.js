@@ -78,6 +78,8 @@ function playRound(playerSelection) {
         let gameResultMessage = "You played 5 games. You " + ((winCounter > lossCounter) ? "won!" : "lost :(");
         addingParagraph(gameResultMessage);
         gameCounter = 0;
+        winCounter = 0;
+        lossCounter = 0;
     }
 }
 
