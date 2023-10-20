@@ -76,7 +76,7 @@ function playRound(playerSelection) {
 
     if(gameCounter == 5) {
         if (winCounter == lossCounter) {
-            let gameResultMessage = "You playes a tie!";
+            let gameResultMessage = "You played a tie!";
         } else {
             let gameResultMessage = "You played 5 games. You " + ((winCounter > lossCounter) ? "won!" : "lost :(");
         }
